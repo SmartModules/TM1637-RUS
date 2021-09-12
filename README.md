@@ -1,18 +1,9 @@
-# SevenSegmentTM1637 Arduino Library
+# TM1637 Arduino Library
 
-* master&nbsp;&nbsp;[![Build Status](https://travis-ci.org/bremme/arduino-tm1637.svg?branch=master)](https://travis-ci.org/bremme/arduino-tm1637)
-* develop&nbsp;[![Build Status](https://travis-ci.org/bremme/arduino-tm1637.svg?branch=develop)](https://travis-ci.org/bremme/arduino-tm1637)
+Arduino библиотека для [4-х разрядного 7-сегментного дисплея на TM1636 или TM1637 драйвере](https://smdx.ru/4bit-tm1637-red)
 
+![TM1637](https://smdx.ru/uploads/product/200/261/thumbs/30_4bit-led-tm1637-1.jpg)
 
-Arduino library for controlling a TM163x based 7-segment display module. These modules are sold under various names by various suppliers. For example:
-
-* [Seed Studio: Grove 4 digit display](http://www.seeedstudio.com/depot/grove-4digit-display-p-1198.html)
-* [Ebay: 4 Bits Digital Tube LED TM1637](http://www.ebay.com/sch/i.html?_odkw=4+Bits+Digital+Tube+LED&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.X4+Bits+Digital+Tube+LED+TM1637.TRS0&_nkw=4+Bits+Digital+Tube+LED+TM1637&_sacat=0)
-* [DealExtreme: LED 4-Digit Display Module](http://www.dx.com/s/TM1637)
-
-They come in different sizes, colors and there is a clock (with a colon) and decimal (with four decimal dots) display variant. But the most common one is the red 0.36" clock version, this is also the cheapest one (you can get those for about $1.50). I've written this library using the above module, if I get my hands on any of the other variants I might add some specific code, for example to print floats on the decimal version.
-
-![TM1637](extras/img/TM1637-4-digit-colon.jpg)
 
 # Hardware setup
 
